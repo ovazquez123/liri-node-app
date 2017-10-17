@@ -1,28 +1,16 @@
 {
-  "name": "liri-node-app",
+  "name": "liri",
   "version": "1.0.0",
-  "description": "creating a liri app",
+  "description": "",
   "main": "liri.js",
-  "dependencies": {
-    "request": "^2.75.0",
-    "spotify": "^0.3.0",
-    "twitter": "^1.4.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ovazquez123/liri-node-app.git"
-
-
-    
-  },
-  "author": "Omar Vazquez",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ovazquez123/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/ovazquez123/liri-node-app"
+  "dependencies": {
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
 }
