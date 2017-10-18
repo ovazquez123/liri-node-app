@@ -53,7 +53,7 @@ switch(command){
 
 function showTweets(){
   //Display last 20 Tweets
-  var screenName = {screen_name: '@omar21400785'};
+  var screenName = {screen_name: 'omar21400785'};
   client.get('statuses/user_timeline', screenName, function(error, tweets, response){
     if(!error){
       for(var i = 0; i<tweets.length; i++){
